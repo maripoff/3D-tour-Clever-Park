@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "CormorantLocal";
+  src: url("fonts/Cormorant-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Заголовок заставки */
+.cover-title,
+.cover-title * {
+  font-family: "CormorantLocal", serif !important;
+  font-size: clamp(30px, 3.5vw, 48px);
+  color: #e6d2b7;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
